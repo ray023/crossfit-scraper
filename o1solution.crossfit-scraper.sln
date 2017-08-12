@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{52C669E2-E37F-4F0C-A409-39E96F94625D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5BEDB200-3CA6-4E9C-88B1-8E386059A057}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "o1solution.crossfit-scraper", "src\o1solution.crossfit-scraper\o1solution.crossfit-scraper.csproj", "{2F5BDDE7-E1EF-4C32-98CD-97838E006692}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "o1solution.crossfit-scraper.consoleTester", "src\o1solution.crossfit-scraper.consoleTester\o1solution.crossfit-scraper.consoleTester.csproj", "{829AC32F-3664-4603-B8B2-5874079BBE81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F5BDDE7-E1EF-4C32-98CD-97838E006692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5BDDE7-E1EF-4C32-98CD-97838E006692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5BDDE7-E1EF-4C32-98CD-97838E006692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5BDDE7-E1EF-4C32-98CD-97838E006692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829AC32F-3664-4603-B8B2-5874079BBE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829AC32F-3664-4603-B8B2-5874079BBE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829AC32F-3664-4603-B8B2-5874079BBE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829AC32F-3664-4603-B8B2-5874079BBE81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F5BDDE7-E1EF-4C32-98CD-97838E006692} = {52C669E2-E37F-4F0C-A409-39E96F94625D}
+		{829AC32F-3664-4603-B8B2-5874079BBE81} = {52C669E2-E37F-4F0C-A409-39E96F94625D}
+	EndGlobalSection
+EndGlobal
