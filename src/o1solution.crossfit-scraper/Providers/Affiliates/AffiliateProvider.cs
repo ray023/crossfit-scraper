@@ -38,7 +38,7 @@ namespace o1solution.crossfitscraper.Providers.Affiliates
                                 Longitude = (float)x[1],
                                 Name = (string)x[2],
                                 AffiliteId = (int)x[3],
-                                SecretField = (int)x[4]
+                                //SecretField = (int)x[4]
                             })
                             .ToArray();
         }

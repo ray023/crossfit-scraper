@@ -47,8 +47,8 @@ namespace o1solution.crossfitscraper.AsyncLoaders
         }
         private void PopulateDetailFields(int i, AffiliateDetailObject affiliateDetails)
         {
-            _affiliateArray[i].Website = affiliateDetails.Website;
-            _affiliateArray[i].Address = affiliateDetails.Address;
+            _affiliateArray[i].Website = affiliateDetails.Website; 
+            _affiliateArray[i].Address = affiliateDetails.Address; 
             _affiliateArray[i].City = affiliateDetails.City;
             _affiliateArray[i].State = affiliateDetails.State;
             _affiliateArray[i].Zip = affiliateDetails.Zip;
